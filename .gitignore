@@ -1,0 +1,11 @@
+*.csv.gz
+*.xlsx
+*.csv.gz.crdownload
+*.txt
+*.pdf
+
+mimicIV.ipynb
+
+# Checkpoints e cache
+__pycache__/
+.ipynb_checkpoints/
