@@ -2,7 +2,6 @@
 *.xlsx
 *.csv.gz.crdownload
 *.txt
-*.pdf
 
 mimicIV.ipynb
 
