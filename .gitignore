@@ -1,10 +1,12 @@
-*.csv.gz
 *.xlsx
 *.csv.gz.crdownload
 *.txt
 *.csv
+*.csv.gz
 
-mimicIV.ipynb
+profiling/
+big_drop.csv
+df_final.csv
 
 # Checkpoints e cache
 __pycache__/
