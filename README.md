@@ -21,8 +21,10 @@ The system has two main layers to ensure accuracy and reliability in healthcare 
 
 * **Predictive Layer:** Classification Supervised Machine Learning models trained on clinical datasets to predict potential diagnoses.
 * **Validation Layer:** To make the results more reliable, every new medical case is used as a query in a FAISS vector database. The system finds the 3 most similar cases from the original data used to train the model. By comparing the model’s prediction with the real results of these 3 past cases, the system adds a validation layer. This confirms if the new diagnosis matches proven medical history.
-
-![Systems Architecture](https://github.com/CatarinaCosta02/Master_Thesis/blob/main/Graphs/Captura%20de%20ecr%C3%A3%202025-12-19%20230459.png)
+* 
+<p align="center">
+  <img src="https://github.com/CatarinaCosta02/Master_Thesis/blob/main/Graphs/Captura%20de%20ecr%C3%A3%202025-12-19%20230459.png?raw=true" width="600">
+</p>
 
 ## Achievments
 
